@@ -371,9 +371,9 @@ $if(csl-refs)$
 $endif$
 $if(lang)$
 \ifLuaTeX
-\usepackage[bidi=basic]{babel}
+\usepackage[bidi=basic,$lang$]{babel}
 \else
-\usepackage[bidi=default]{babel}
+\usepackage[bidi=default,$lang$]{babel}
 \fi
 $if(babel-lang)$
 \babelprovide[main,import]{$babel-lang$}
