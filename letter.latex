@@ -566,6 +566,7 @@ $if(yourrefname)$\setkomavar*{yourref}{$yourrefname$}$endif$
 $if(opening)$\setkomavar{opening}{$opening$}$endif$
 $if(closing)$\setkomavar{closing}{$closing$}$endif$
 $if(enclseparator)$\setkomavar*{enclseparator}{$enclseparator$}$endif$
+$if(sigbeforevskip)$\setplength{sigbeforevskip}{$sigbeforevskip$}$endif$
 % END OVERRIDES
 
 \begin{document}
